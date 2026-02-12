@@ -10,23 +10,32 @@ body {
 nav {
     background-color: #151515;
     padding: 20px 0;
+}
+
+.nav-container {
     display: flex;
-    justify-content: center; /* Zentriert die Links horizontal */
-    align-items: center;
+    justify-content: center; /* Links zentrieren */
+    gap: 40px; /* Abstand zwischen Links */
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 30px; /* Abstand zwischen Links */
-    font-size: 1.3rem; /* Größer */
+    font-size: 1.5rem; /* größer */
     font-weight: 600;
     transition: color 0.3s, transform 0.2s;
 }
 
 nav a:hover {
     color: #4da3ff;
-    transform: scale(1.1); /* leichtes Zoomen beim Hover */
+    transform: scale(1.1);
+}
+
+nav a.active {
+    color: #4da3ff;
+    font-weight: bold;
+    border-bottom: 3px solid #4da3ff;
+    padding-bottom: 4px;
 }
 
 /* Inhalt */
@@ -69,12 +78,4 @@ footer {
     background-color: #151515;
     color: #aaa;
     font-size: 0.9rem;
-}
-
-/* Aktive Navigation */
-nav a.active {
-    color: #4da3ff;
-    font-weight: bold;
-    border-bottom: 3px solid #4da3ff;
-    padding-bottom: 4px;
 }
