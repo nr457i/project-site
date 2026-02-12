@@ -9,100 +9,57 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #0f0f0f;
-            color: #ffffff;
+            color: white;
         }
 
-        header {
-            padding: 40px 20px;
-            text-align: center;
+        nav {
             background-color: #151515;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        h1 {
-            font-size: 2.5rem;
-            margin: 0;
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
         }
 
-        section {
-            padding: 60px 20px;
+        nav a:hover {
+            color: #4da3ff;
+        }
+
+        .container {
             max-width: 900px;
             margin: auto;
-        }
-
-        .card {
-            background-color: #1c1c1c;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 30px;
+            padding: 60px 20px;
         }
 
         footer {
             text-align: center;
             padding: 20px;
             background-color: #151515;
-            font-size: 0.9rem;
             color: #aaa;
-        }
-
-        a {
-            color: #4da3ff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        button {
-            background-color: #4da3ff;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            opacity: 0.85;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Project Site</h1>
-    <p>Eine persönliche Website im Aufbau.</p>
-</header>
-
-<section>
-    <div class="card">
-        <h2>Über dieses Projekt</h2>
-        <p>
-            Diese Website dient als persönliche Plattform.
-            Inhalte, Projekte und digitale Produkte können hier zukünftig veröffentlicht werden.
-        </p>
+<nav>
+    <div><strong>Project Site</strong></div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">Über</a>
+        <a href="projects.html">Projekte</a>
+        <a href="contact.html">Kontakt</a>
     </div>
+</nav>
 
-    <div class="card">
-        <h2>Zukünftige Inhalte</h2>
-        <p>
-            Hier entstehen in Zukunft:
-        </p>
-        <ul>
-            <li>Artikel</li>
-            <li>Projekte</li>
-            <li>Digitale Produkte</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>Kontakt</h2>
-        <p>
-            Kontaktmöglichkeit folgt in Kürze.
-        </p>
-        <button>Kontakt aufnehmen</button>
-    </div>
-</section>
+<div class="container">
+    <h1>Willkommen</h1>
+    <p>Dies ist die Startseite meiner persönlichen Website.</p>
+</div>
 
 <footer>
     © 2026 Project Site
