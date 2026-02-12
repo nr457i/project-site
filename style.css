@@ -27,14 +27,14 @@ nav a {
 }
 
 nav a:hover {
-    color: ##fff605;
+    color: #fff605;
     transform: scale(1.1);
 }
 
 nav a.active {
-    color: ##fff605;
+    color: #fff605;
     font-weight: bold;
-    border-bottom: 3px solid ##fff605;
+    border-bottom: 3px solid #fff605;
     padding-bottom: 4px;
 }
 
