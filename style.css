@@ -88,10 +88,20 @@ button:hover, .btn:hover {
 footer {
     background-color: #111;
     color: #888;
-    padding: 20px 0;
+    padding: 30px 20px;
     text-align: center;
     font-size: 14px;
     margin-top: 60px;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #2596be;
 }
 
 /* ===== Animationen ===== */
